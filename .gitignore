@@ -1,0 +1,69 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userprefs
+*.vs/
+
+# Ignore build artifacts
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.vspscc
+*_wpftmp.csproj
+*.rptproj.user
+*_UpgradeReport_Files/
+UpgradeLog.XML
+UpgradeLog.htm
+
+# Ignore Visual Studio files
+*.vscode/
+.vs/
+*_iis.txt
+*.pidb
+*.log
+*.bak
+*.cache
+
+# Ignore Resharper files
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+*.dotCover
+
+# Ignore Roslyn files
+*.ide
+*.sln.docstates
+
+# Ignore NCrunch files
+_NCrunch_*
+*.ncrunch*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Ignore Rider files
+.idea/
+*.sln.iml
+
+# Ignore Mac files
+.DS_Store
