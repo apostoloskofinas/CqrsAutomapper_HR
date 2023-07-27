@@ -4,7 +4,6 @@ using HR.LeaveManagement.Application.Features.LeaveType.Queries.GetLeaveTypeDeta
 using HR.LeaveManagement.Domain;
 
 namespace HR.LeaveManagement.Application.MappingProfiles;
-
 public class LeaveTypeProfile : Profile
 {
     public LeaveTypeProfile()

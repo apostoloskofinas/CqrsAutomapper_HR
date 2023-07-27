@@ -15,8 +15,6 @@ namespace HR.LeaveManagement.Application.Features.LeaveType.Commands.CreateLeave
             this._leaveTypeRepository = leaveTypeRepository;
         }
 
-
-
         public async Task<int> Handle(CreateLeaveTypeCommand request, CancellationToken cancellationToken)
         {
             var leaveTypeToCreate = _mapper.Map<Domain.LeaveType>(request);

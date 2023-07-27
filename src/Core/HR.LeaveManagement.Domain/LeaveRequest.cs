@@ -1,7 +1,6 @@
 ﻿using HR.LeaveManagement.Domain.Common;
 
 namespace HR.LeaveManagement.Domain;
-
 public class LeaveRequest : BaseEntity
 {
     public DateTime StartDate { get; set; }
