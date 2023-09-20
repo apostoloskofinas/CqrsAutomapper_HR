@@ -2,11 +2,6 @@
 using HR.LeaveManagement.Domain;
 using HR.LeaveManagement.Persistence.DatabaseContext;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HR.LeaveManagement.Persistence.Repositories
 {
@@ -17,9 +12,9 @@ namespace HR.LeaveManagement.Persistence.Repositories
         {
         }
 
-        public Task<bool> IsLeaveTypeUnique(string name)
+        public async Task<bool> IsLeaveTypeUnique(string name)
         {
-            return _context.LeaveTypes.AnyAsync(t => t.Name == name);
+            return await _context.LeaveTypes.AnyAsync(t => t.Name == name); //I have specific contract
         }
     }
 }
